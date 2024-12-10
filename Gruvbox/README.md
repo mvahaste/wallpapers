@@ -1,6 +1,6 @@
 # Gruvbox
 
-[Back to main README.md](../README.md)
+[Back to main README.md](../)
 
 ## Wallpapers
 
