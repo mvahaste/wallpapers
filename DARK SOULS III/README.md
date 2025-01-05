@@ -1,4 +1,4 @@
-# DARK SOULS 3
+# DARK SOULS III
 
 [Back to main README.md](../)
 
