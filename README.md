@@ -6,3 +6,4 @@ Some wallpapers I've found on the internet and collected over time.
 
 - [Green](Green/README.md)
 - [Gruvbox](Gruvbox/README.md)
+- [DARK SOULS III](DARK SOULS III/README.md)
