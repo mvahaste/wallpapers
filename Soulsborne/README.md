@@ -1,4 +1,4 @@
-# DARK SOULS III
+# Soulsborne
 
 [Back to main README.md](../)
 
