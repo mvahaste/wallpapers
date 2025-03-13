@@ -9,3 +9,5 @@ Some wallpapers I've found on the internet and collected over time.
 - [Soulsborne](Soulsborne/README.md)
 - [Japan](Japan/README.md)
 - [Night City](Night%20City/README.md)
+- [Minimal](Minimal/README.md)
+- [Abstract](Abstract/README.md)
