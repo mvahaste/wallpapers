@@ -1,0 +1,42 @@
+# Rename all files to 001, 002, 003, ... in the current directory
+# If file is not .jpg, convert it
+
+import os
+from PIL import Image
+
+
+def convert_to_jpg(file_path, output_dir):
+    img = Image.open(file_path)
+    rgb_im = img.convert("RGB")
+    new_path = os.path.join(
+        output_dir, os.path.splitext(os.path.basename(file_path))[0] + ".jpg"
+    )
+    rgb_im.save(new_path, "JPEG")
+    os.remove(file_path)
+    return new_path
+
+
+def rename_files():
+    output_dir = "output"
+    os.makedirs(output_dir, exist_ok=True)
+
+    files = [f for f in os.listdir(".") if os.path.isfile(f)]
+    files.sort()
+
+    count = 1
+    for file in files:
+        ext = os.path.splitext(file)[1].lower()
+        if ext in ["png"]:
+            file = convert_to_jpg(file, output_dir)
+        else:
+            new_path = os.path.join(output_dir, file)
+            os.rename(file, new_path)
+            file = new_path
+
+        new_name = os.path.join(output_dir, f"{count:03d}.jpg")
+        os.rename(file, new_name)
+        count += 1
+
+
+if __name__ == "__main__":
+    rename_files()
