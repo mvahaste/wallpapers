@@ -4,6 +4,6 @@ Some wallpapers I've found on the internet and collected over time.
 
 ## 🗃️ Categories
 
-<!-- automated section below -->
+<!-- AUTOMATED BLOCK START -->
 
-<!-- automated section above -->
+<!-- AUTOMATED BLOCK END -->
