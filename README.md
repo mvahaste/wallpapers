@@ -6,11 +6,11 @@ Some wallpapers I've found on the internet and collected over time.
 
 <!-- AUTOMATED BLOCK START -->
 
-- [Abstract](./abstract/README.md)
-- [Green](./green/README.md)
-- [Soulsborne](./soulsborne/README.md)
-- [Minimal](./minimal/README.md)
-- [Japan](./japan/README.md)
-- [Gruvbox](./gruvbox/README.md)
+- [Abstract](./wallpapers/abstract/README.md)
+- [Green](./wallpapers/green/README.md)
+- [Soulsborne](./wallpapers/soulsborne/README.md)
+- [Minimal](./wallpapers/minimal/README.md)
+- [Japan](./wallpapers/japan/README.md)
+- [Gruvbox](./wallpapers/gruvbox/README.md)
 
 <!-- AUTOMATED BLOCK END -->
