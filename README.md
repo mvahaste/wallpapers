@@ -1,8 +1,8 @@
-# Wallpapers
+# 🎨 Wallpapers
 
 Some wallpapers I've found on the internet and collected over time.
 
-## Categories
+## 🗃️ Categories
 
 <!-- automated section below -->
 
