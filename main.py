@@ -48,6 +48,11 @@ def create_readme(directory, template, image_filenames):
     """Create a README.md in the directory using the template and image links."""
     readme_path = os.path.join(directory, "README.md")
 
+    template = template.replace(
+        AUTOMATED_CATEGORY_NAME,
+        os.path.basename(directory).replace("_", " ").title(),
+    )
+
     with open(readme_path, "w", encoding="utf-8") as file:
         file.write(template + "\n")
 
