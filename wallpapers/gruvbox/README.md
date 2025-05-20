@@ -1,4 +1,4 @@
-# ✨ {{category}}
+# 🏷️ Gruvbox
 
 [Back to main README.md](../../)
 

@@ -1,4 +1,4 @@
-# ✨ {{category}}
+# 🏷️ Minimal
 
 [Back to main README.md](../../)
 

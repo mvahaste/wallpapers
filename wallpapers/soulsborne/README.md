@@ -1,4 +1,4 @@
-# ✨ {{category}}
+# 🏷️ Soulsborne
 
 [Back to main README.md](../../)
 

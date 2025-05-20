@@ -1,4 +1,4 @@
-# ✨ {{category}}
+# 🏷️ Japan
 
 [Back to main README.md](../../)
 

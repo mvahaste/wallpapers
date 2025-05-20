@@ -1,4 +1,4 @@
-# ✨ {{category}}
+# 🏷️ Abstract
 
 [Back to main README.md](../../)
 

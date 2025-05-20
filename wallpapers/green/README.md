@@ -1,4 +1,4 @@
-# ✨ {{category}}
+# 🏷️ Green
 
 [Back to main README.md](../../)
 
