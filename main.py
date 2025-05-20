@@ -49,7 +49,7 @@ def create_readme(directory, template, image_filenames):
 def format_readme_list(readme_names):
     """Convert readme folder names to markdown list items."""
     return [
-        f"- [{name.replace('_', ' ').title()}](./{name}/README.md)"
+        f"- [{name.replace('_', ' ').title()}](./wallpapers/{name}/README.md)"
         for name in readme_names
     ]
 
