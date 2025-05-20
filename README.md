@@ -11,6 +11,7 @@ Some wallpapers I've found on the internet and collected over time.
 - [Gruvbox](./wallpapers/gruvbox/README.md)
 - [Japan](./wallpapers/japan/README.md)
 - [Minimal](./wallpapers/minimal/README.md)
+- [Pixel Art](./wallpapers/pixel_art/README.md)
 - [Soulsborne](./wallpapers/soulsborne/README.md)
 
 <!-- AUTOMATED BLOCK END -->
