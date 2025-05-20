@@ -99,6 +99,7 @@ def main():
         created_readmes.append(os.path.basename(dirpath))
 
     if created_readmes:
+        created_readmes.sort()
         md_list = format_readme_list(created_readmes)
         update_main_readme(MAIN_README, md_list)
 
