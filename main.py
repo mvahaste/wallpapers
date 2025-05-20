@@ -9,6 +9,7 @@ ROOT_DIR = "./wallpapers/"
 MAIN_README = "README.md"
 AUTOMATED_BLOCK_START = "<!-- AUTOMATED BLOCK START -->"
 AUTOMATED_BLOCK_END = "<!-- AUTOMATED BLOCK END -->"
+AUTOMATED_CATEGORY_NAME = "<!-- AUTOMATED CATEGORY NAME -->"
 
 
 def load_template(path):
@@ -20,6 +21,7 @@ def load_template(path):
 def is_valid_image(filename):
     """Check if the file is a valid image and not ignored."""
     ext = os.path.splitext(filename)[1].lower()
+
     return ext in IMAGE_EXTENSIONS and not IGNORED_PATTERN.match(filename)
 
 
@@ -29,19 +31,26 @@ def rename_images(directory, images):
     Returns a list of new filenames.
     """
     renamed = []
+
     for index, image in enumerate(sorted(images), 1):
         ext = os.path.splitext(image)[1]
+
         new_name = f"{index:03d}{ext}"
+
         os.rename(os.path.join(directory, image), os.path.join(directory, new_name))
+
         renamed.append(new_name)
+
     return renamed
 
 
 def create_readme(directory, template, image_filenames):
     """Create a README.md in the directory using the template and image links."""
     readme_path = os.path.join(directory, "README.md")
+
     with open(readme_path, "w", encoding="utf-8") as file:
         file.write(template + "\n")
+
         for image in image_filenames:
             file.write(f"![]({image})\n")
 
@@ -87,6 +96,7 @@ def update_main_readme(readme_path, new_entries):
 
 def main():
     template = load_template(TEMPLATE_PATH)
+
     created_readmes = []
 
     for dirpath, _, filenames in os.walk(ROOT_DIR):
