@@ -10,6 +10,7 @@ Some wallpapers I've found on the internet and collected over time.
 - [Green](./wallpapers/green/README.md)
 - [Gruvbox](./wallpapers/gruvbox/README.md)
 - [Japan](./wallpapers/japan/README.md)
+- [Minimal](./wallpapers/minimal/README.md)
 - [Monochrome](./wallpapers/monochrome/README.md)
 - [Nature](./wallpapers/nature/README.md)
 - [Paintings](./wallpapers/paintings/README.md)
