@@ -14,6 +14,7 @@ Some wallpapers I've found on the internet and collected over time.
 - [Monochrome](./wallpapers/monochrome/README.md)
 - [Nature](./wallpapers/nature/README.md)
 - [Paintings](./wallpapers/paintings/README.md)
+- [Rose-Pine](./wallpapers/rose-pine/README.md)
 - [Soulsborne](./wallpapers/soulsborne/README.md)
 
 <!-- AUTOMATED BLOCK END -->
